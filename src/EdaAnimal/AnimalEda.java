@@ -12,7 +12,7 @@ public class AnimalEda {
                 new Cat("Garfield", 8),
         };
 
-        Plate plate = new Plate(18);
+        Plate plate = new Plate(17);
 
         printInfo(cats, plate);
         haveLunch(cats, plate);
@@ -61,7 +61,7 @@ public class AnimalEda {
             System.out.printf("Is cat '%s(appetite: %d)' hungry? Answer: %s%n",
                     cat.getName(),
                     cat.getAppetite(),
-                    !cat.isStiety());
+                    !cat.getSatiety());
 
         }
     }
